@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_two"
+    tools:context="br.edu.ifspsaocarlos.sdm.jogossdm.activity.AppsActivity">
+
+
+    <ImageButton
+        android:id="@+id/imbtn_dices"
+        android:layout_width="100dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dices_list" />
+
+    <ImageButton
+        android:id="@+id/imbtn_hourglass"
+        android:layout_width="87dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="60dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hourglass_list" />
+
+    <ImageButton
+        android:id="@+id/imbtn_chronometer"
+        android:layout_width="88dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chronometer_list" />
+
+    <ImageButton
+        android:id="@+id/imbtn_chess_clock"
+        android:layout_width="107dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/chess_clock_list" />
+
+    <ImageButton
+        android:id="@+id/imbtn_info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/info_list" />
+
+</android.support.constraint.ConstraintLayout>

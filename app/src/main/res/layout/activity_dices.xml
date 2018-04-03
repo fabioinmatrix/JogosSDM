@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_dices"
+    tools:context="br.edu.ifspsaocarlos.sdm.jogossdm.activity.DicesActivity">
+
+    <ImageView
+        android:id="@+id/iv_dice_two"
+        android:layout_width="100dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice_2" />
+
+    <ImageView
+        android:id="@+id/iv_dice_four"
+        android:layout_width="100dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice_4" />
+
+    <ImageButton
+        android:id="@+id/rollDices"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hand_play_dices" />
+</android.support.constraint.ConstraintLayout>
